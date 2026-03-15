@@ -542,7 +542,9 @@ document.addEventListener('DOMContentLoaded', () => {
   bindRegistroInputs();
 
   // Registrar una cuenta de demo para facilitar pruebas
-  App.cuentas.push({ nombre: 'Admin', user: 'admin', pass: '1234' });
+  App.cuentas.push({ nombre: 'ander', user: 'ander', pass: '1234' });
+  App.cuentas.push({ nombre: 'william', user: 'william', pass: '1234' });
+  App.cuentas.push({ nombre: 'daniela', user: 'daniela', pass: '1234' });
 
   // Enter en login
   ['loginUser','loginPass'].forEach(id => {
